@@ -2,6 +2,5 @@
 
 if [[ ! -f "$HOME/.tmux.conf" ]]
 then
-        echo "creating file"
-        ln -s tmux.conf "$HOME/.tmux.conf"
+        ln -s "$PWD/tmux.conf" "$HOME/.tmux.conf"
 fi
