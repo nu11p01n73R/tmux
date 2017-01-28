@@ -2,7 +2,7 @@
 
 The tmux configuration files along with a simple theme. The key bindings are changed for ease of use.
 
-[screenshot](sreenshot.png)
+![screenshot](sreenshot.png)
 
 
 **Installation**
