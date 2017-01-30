@@ -1,5 +1,6 @@
 # Variables
 icon="⚡"
+music_icon="#[fg=red]♬ "
 active_color=colour002
 inactive_color=colour005
 active_bg_color=colour240
@@ -26,8 +27,11 @@ setw -g window-status-format "#I  #W"
 
 
 # Status bar
+set-option -g status-right-length 150
 session_name="#[fg=$active_color] #S "
 date="#[fg=$active_color] %d %b %H:%M "
 
+itunes="$music_icon #[fg=$active_color]#(~/.tmux/scripts/music.scpt)"
+
 set -g status-left "${session_name}$icon  "
-set -g status-right "#H $icon $date"
+set -g status-right "$itunes $icon  #[fg=$inactive_color]#H $icon $date"
