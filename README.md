@@ -19,7 +19,7 @@ is no such file.
 
 **Key Bindings**
 
-- `C-space` Prefix
+- `C-a` Prefix
 - `<prefix>-j` select the down pane.
 - `<prefix>-k` select the top pane.
 - `<prefix>-h` select the left pane.
