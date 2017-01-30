@@ -31,3 +31,13 @@ Resizing the panes can be done using
 - `<prefix>-K` Move the top border by 5.
 - `<prefix>-h` Move the left border by 5.
 - `<prefix>-l` Move the right border by 5.
+
+Copying and pasting
+
+- `<prefix>-Esc` Enter copy mode.
+- `v`   Start selection. 
+- `y` Yank selection.
+- `<prefix>-p` Paste.
+
+If you are using iterm2, check "Application in terminal may access clipboard"
+to enable copying text from tmux to osX clipboard.
