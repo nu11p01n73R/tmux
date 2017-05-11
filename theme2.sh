@@ -11,8 +11,8 @@ set-option -g message-fg $inactive_color
 setw -g window-status-format " #W "
 setw -g window-status-current-format "#[fg=$active_color,bold][ #W ]"
 
-set-option -g status-right-length 20
-set-option -g status-right-length 20
+set-option -g status-right-length 50
+set-option -g status-left-length 50
 set -g status-justify centre
 set -g status-left "[ #S ]"
 set -g status-right " [ #H ] "
