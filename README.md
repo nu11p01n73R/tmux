@@ -1,23 +1,18 @@
-**Tmux Configurations**
+# Tmux Configurations
 
 The tmux configuration files along with a simple theme. The key bindings are changed for ease of use.
 
-![screenshot](screenshot.png)
 
+## Installation
 
-**Installation**
+Clone the repo to `~/.config/tmux` folder, run the setup script by issuing the following command,
 
-Clone the repo to `~/.tmux` folder, run the setup script by issuing the following command,
+```shell
+git clone git@github.com:nu11p01n73R/tmux.git ~/.config/tmux
 
 ```
-$ ./setup.sh
-```
 
-This will create a file `.tmux.conf` in your home directory. If there
-is no such file.
-
-
-**Key Bindings**
+Key Bindings
 
 - `C-a` Prefix
 - `<prefix>-j` select the down pane.
