@@ -1,0 +1,3 @@
+[submodule "themes/catppuccin"]
+	path = themes/catppuccin
+	url = git@github.com:catppuccin/tmux.git
