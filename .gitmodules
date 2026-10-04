@@ -1,3 +1,6 @@
 [submodule "themes/catppuccin"]
 	path = themes/catppuccin
 	url = git@github.com:catppuccin/tmux.git
+[submodule "themes/rose-pine"]
+	path = themes/rose-pine
+	url = git@github.com:rose-pine/tmux.git

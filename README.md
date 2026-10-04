@@ -36,3 +36,18 @@ Copying and pasting
 
 If you are using iterm2, check "Application in terminal may access clipboard"
 to enable copying text from tmux to osX clipboard.
+
+
+## Themes
+
+Theme submodules live in `themes/`. Each theme has its own config in
+`theme-configs/<name>.conf` (options, status bar overrides and the `run` line
+that loads the theme). `tmux.conf` picks one via `@theme`.
+
+To add a theme:
+
+1. `git submodule add <url> themes/<name>`
+2. Create `theme-configs/<name>.conf`.
+3. Set `@theme` to `<name>` in `tmux.conf`.
+
+Restart the server (`tmux kill-server`) to fully switch themes. Requires tmux 3.2+.
