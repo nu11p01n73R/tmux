@@ -5,12 +5,17 @@ The tmux configuration files along with a simple theme. The key bindings are cha
 
 ## Installation
 
-Clone the repo to `~/.config/tmux` folder, run the setup script by issuing the following command,
+Clone the repo anywhere and run `make install`. It fetches the theme
+submodules and symlinks `~/.config/tmux` to the cloned repo.
 
 ```shell
-git clone git@github.com:nu11p01n73R/tmux.git ~/.config/tmux
-
+git clone git@github.com:nu11p01n73R/tmux.git
+cd tmux
+make install
 ```
+
+`make install` does nothing if `~/.config/tmux` already exists, so move any
+existing config away first. `make uninstall` removes the symlink.
 
 Key Bindings
 
